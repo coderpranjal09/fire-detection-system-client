@@ -1,5 +1,5 @@
 // src/api/fireAlerts.js
-const API_BASE_URL = 'http://localhost:5000/api/fire-alerts'
+const API_BASE_URL = 'https://fire-detection-system-neon.vercel.app/api/fire-alerts'
 
 // ✅ Fetch all alerts (GET)
 export const getFireAlerts = async () => {
